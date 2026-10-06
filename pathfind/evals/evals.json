@@ -1,0 +1,26 @@
+{
+  "skill_name": "pathfind",
+  "evals": [
+    {
+      "id": 0,
+      "name": "installed-skill-already-covers-it",
+      "prompt": "i've got a draft of my transfer essay at ~/Documents/essay-draft.md and honestly it reads like ChatGPT wrote it. em dashes everywhere, that whole 'it's not just X, it's Y' thing. i want it to sound like me again. what's the right way to go about this?",
+      "expected_output": "Identifies that an installed skill (avoid-ai-writing, with its code-based detector) already owns this, rather than proposing hand-editing or a generic rewrite. Names the specific tool and why.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "unfamiliar-domain-ios-pose",
+      "prompt": "the pushup rep counter in my iOS app keeps miscounting when my face is hidden or when the phone's lying on the floor. i've tuned the confidence thresholds twice now and both times it got measurably worse. before i touch it again i want to actually know what the right approach is - is Vision even the right tool here, is there something better, what do people actually do for this in 2026",
+      "expected_output": "A pathway naming concrete surfaces: the installed vision-framework skill, Context7 for current Vision API docs, video/education for current technique, and any vendored or candidate SDK. States explicitly what it searched and found nothing for. Does not just start proposing threshold changes.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "trivial-task-should-not-probe",
+      "prompt": "can you bump the copyright year in the footer of my site from 2025 to 2026? it's in src/components/Footer.tsx",
+      "expected_output": "Declines to run a discovery pass and just does the edit (or says it would). The skill's triage gate should recognise this as settled work where probing is pure overhead.",
+      "files": []
+    }
+  ]
+}
